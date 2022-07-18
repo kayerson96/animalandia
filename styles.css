@@ -134,7 +134,7 @@ main {
                           .vacu {
                             width: 400px;
                          	height: 400px;
-                         	background-image: url(things/vacunaa.jpg);
+                         	background-image: url(things/vacu0.png);
                          	background-size: cover;
                             display: flex;
                             margin: auto;
@@ -233,38 +233,103 @@ main {
                                 }
 
 
-/*en esta seccion va la pagina de servicios */
 
-/*.container-first {
+/*secciones de equipo*/
+
+          .containersecond {
+          	height: 30rem;
+          	display: grid;
+          	grid-template-columns: 1fr 1fr 1fr 1fr;
+          	margin: 5px;
+          	justify-items: center;
+
+          }
+
+          .card {
+          	width: 18rem;
+          	height: 20rem;
+          }
+              .card-img-top {
+                  width: 18rem;
+              	height: 18rem;
+              	position: ;
+              }
+              .card-body {
+              	background-color: #98aef4;
+              	opacity: 0.8;
+              }
+                     .card-title {
+                     	text-align: center;
+                         justify-content: center;
+                         background-color: blue;
+                         border-radius: 5px;
+                         color: white;
+                     }
+
+/*seccion se servicios*/
+
+.galerias {
+	height: 439px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+             .item001 {
+             	background-image: url(things/galery/Rectangle16.png);
+             	height: 197px;
+             	width: 205px;
+
+             }
+                 .item002 {
+             	background-image: url(things/galery/Rectangle15.png);
+             	background-repeat: no-repeat;
+             	background-size: cover;
+             	height: 299px;
+             	width: 247px; }
+
+                .item003 {
+             	background-image: url(things/galery/Rectangle13.png);
+             	background-repeat: no-repeat;
+             	background-size: cover;
+             	height: 404px;
+             	width: 596px;
+             }
+                
+                 .item004 {
+             	background-image: url(things/galery/Rectangle14.png);
+             	background-repeat: no-repeat;
+             	background-size: cover;
+             	height: 301px;
+             	width: 195px;
+             }
+                .item005 {
+             	background-image: url(things/galery/Rectangle17.png);
+             	background-repeat: no-repeat;
+             	background-size: cover;
+             	height: 196px;
+             	width: 197px;
+             }
+
+
+/*contenido de consultas y otras cosas*/
+.firscontainerservicios {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+            .card {
+
+            }
+             .card-body {
+             	display: grid; }
+
+
+/*                     pagina de tips*/
+
+
+.group001 {
 	background-color: red;
-	width: 90%;
-	max-width: 1200px;
-	margin: auto;
-	padding: 40px 0;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-*/
-
-.containersecond {
-	height: 30rem;
-	background-color: red;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin: 5px;
-	justify-items: center;
-
-}
-
-.card {
-	width: 18rem;
-	height: 20rem;
-}
-.card-img-top {
-    width: 18rem;
-	height: 18rem;
-}
-.card-body {
-	background-color: #98aef4;
-	opacity: 0.8;
+	height: 200px;
 }
