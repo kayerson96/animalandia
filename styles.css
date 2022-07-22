@@ -449,3 +449,127 @@ main {
 			                   	background-position: center;
 			                   	background-repeat: no-repeat;
 			                   }
+
+/*			                   pagina de contactanos */
+
+.secion-contactanos {
+	height: 1200px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	margin: 30px 50px 0px 50px;
+	gap: 20px;
+	padding: 0% 5px 0% 5px;
+}
+
+                   .one1 {
+                   	background-color: #98aef4;
+                   	position: relative;
+                   	height: 206px;
+                   	justify-content: center;
+                   	border-radius: 15px;
+                   	width: 80%;
+                   	border: #ffffff 5px dashed;
+                   	margin: auto;
+                   }
+                                      .phonee {
+                                      	background-image: url(things/galery/phonee.png);
+                                      	background-size: cover;
+                                      	width: 62px;
+                                      	height: 69px;
+                                      	position: absolute;
+                                      	top: 10px;
+                                      	left: 8%;
+                                      }
+
+       .two2 {
+       	width: 613px;
+       	height: 209px;
+       	margin: auto;
+       	display: flex;
+       	width: 80%;
+
+
+       }
+              .whomweare{
+              	width: 70%;
+              	background-color: #98aef4;;
+              	border-radius: 15px;
+              }
+              .childtwo {
+              	background-image: url(things/galery/quienessomos.png);
+              	background-size: cover;
+              	width: 30%;
+              	border-radius: 15px;
+              	border: #98aef4 5px dashed;
+              }
+
+        .three3 {
+        	background-color: #98aef4;;
+        	width: 613px;
+       	    height: 209px;
+       	    display: flex;
+       	    margin: auto;
+       	    border-radius: 15px;
+            border: #ffffff 5px dashed;
+        }
+                    .direction01 {
+                    	background-image: url(things/building.png);
+                    	width: 62px;
+                        height: 69px;
+                        background-size: cover;
+                    }
+
+                    .direcciones-1 {
+                    	width: 70%;
+                    }
+        .five5 {
+        	background-color:#98aef4 ;
+        	display: flex;
+        	margin: auto;
+        	width: 100%;
+        	height: 209px;
+        	border: #ffffff 5px dashed;
+        	border-radius: 15px;
+        }
+                       .pictimes {
+                       	background-image: url(things/galery/times.png);
+                       	width: 62px;
+                        height: 69px;
+                        background-size: cover;
+                        left: 8px;
+                       }
+
+                       .time01 {
+                       }
+
+        .six6 {
+        	background-color:#808080 ;
+        	width: 100%;
+        	height: 550px;
+        	padding-top: 25px;
+        	border: #ffffff 5px dashed;
+        	border-radius: 15px;
+
+        }
+                          .formulario {
+                           background-color: #808080;
+                          	width: 90%;
+                          	height: 90%;
+                          	margin: auto;
+                          }
+
+                   #btn-enviar-formulario {
+                   	background-color: #C19FCF;
+                   }
+
+        .seven7 {
+        	background-color:#98aef4; ;
+        	width: 100%;
+        	height: 550px;
+        	padding: 20px;
+        	border: #ffffff 5px dashed;
+        	border-radius: 15px;
+        }
